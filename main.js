@@ -1,4 +1,4 @@
-var redomx = require('redomx')
+var rdx = require('redomx')
 var pluginUtils = require('rollup-pluginutils')
 var createFilter = pluginUtils.createFilter
 
@@ -9,7 +9,7 @@ module.exports = function redomx ( options = {} ) {
     transform ( code, id ) {
       if ( !filter( id ) ) return;
 
-      var result = redomx(code)
+      var result = rdx(code)
 
       code = result.code
 
