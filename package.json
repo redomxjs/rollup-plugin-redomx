@@ -1,0 +1,29 @@
+{
+  "name": "rollup-plugin-redomx",
+  "version": "0.0.1",
+  "description": "A rollup plugin which uses RedomX to compile inline html to Redom ES6 code",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redomxjs/rollup-plugin-redomx.git"
+  },
+  "keywords": [
+    "Rollup",
+    "Plugin",
+    "Transpiler",
+    "RedomX"
+  ],
+  "author": "Katja Lutz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redomxjs/rollup-plugin-redomx/issues"
+  },
+  "homepage": "https://github.com/redomxjs/rollup-plugin-redomx#readme",
+  "dependencies": {
+    "redomx": "^0.1.0",
+    "rollup-pluginutils": "^2.0.1"
+  }
+}
