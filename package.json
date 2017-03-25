@@ -16,7 +16,11 @@
     "Transpiler",
     "RedomX"
   ],
-  "author": "Katja Lutz",
+  "author": {
+    "name": "Katja Lutz",
+    "email": "",
+    "url": "https://github.com/katywings"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/redomxjs/rollup-plugin-redomx/issues"
