@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-redomx",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A rollup plugin which uses RedomX to compile inline html to Redom ES6 code",
   "main": "main.js",
   "scripts": {
